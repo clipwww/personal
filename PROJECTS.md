@@ -45,7 +45,7 @@
 使用技術: `Vue.js@2.7`、`Vue/cli -> Vite`、`Vue-Router`、`Vuex`、`Vue-i18n`、`Express.js`、`SCSS`、`TailwindCSS`、`VueUse`、`Axios`、`D3`、`PDFmake`、`Sharp`、`Yup`
 
 全端開發（Vue2 + Express.js）
-- Hybrid Web 處理與 Native App 溝通
+- Hybrid App 處理 Web 與 Native App 溝通
 - 建立多語系架構
 - 串接 TapPay、Stripe，支援台灣/新加坡地區付款
 - 用 Sharp, pdfmake 實作圖片生成，提供店家結帳立牌與廣宣品下載
