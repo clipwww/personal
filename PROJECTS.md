@@ -13,7 +13,7 @@
 專案連結: https://myre.life/
 使用技術: `Nuxt.js@2 (SSR)`、`Vuex`、`Vue-i18n`、`Express.js`、`SCSS`、`TailwindCSS`、`TypeScript`、`VueUse`、`Axios`、`Pino`、`Leaflet`
 
-全端開發（Nuxt.js@2 SSR + Express.js）
+全端開發（Nuxt2 SSR + Express.js）
 - 實作 LRU Cache 快取策略
 - 建立裝置指紋（Fingerprint）識別機制
 - 優化 SSR 效能
@@ -35,19 +35,22 @@
 |![image](https://hackmd.io/_uploads/BkFMflZV-g.png =200x)|![IMG_8609 (1)](https://hackmd.io/_uploads/Hk7G7lbVWl.png =100x)|![image](https://hackmd.io/_uploads/HJgszxZEZl.png =100x)|
 
 
-
-
-
 ### RE·X BOSS 店家管理系統 / Web
 > 與設計、前後端同事協作開發
 > 合作店家使用的平台，提供店老闆與店員操作；功能涵蓋交易處理、行銷工具、數據分析等。另有 RE Boss App（Hybrid），需處理與 Native App 的互動與溝通
-> 串接 TapPay、Stripe，支援台灣/新加坡地區付款
-> 實作 PDF/PNG 與 Barcode/QR 生成功能，提供店家廣宣品下載
 
 
 專案時間: 2017 ~
 專案連結: https://boss.myre.life/
 使用技術: `Vue.js@2.7`、`Vue/cli -> Vite`、`Vue-Router`、`Vuex`、`Vue-i18n`、`Express.js`、`SCSS`、`TailwindCSS`、`VueUse`、`Axios`、`D3`、`PDFmake`、`Sharp`、`Yup`
+
+全端開發（Vue2 + Express.js）
+- Hybrid Web 處理與 Native App 溝通
+- 建立多語系架構
+- 串接 TapPay、Stripe，支援台灣/新加坡地區付款
+- 用 Sharp, pdfmake 實作圖片生成，提供店家結帳立牌與廣宣品下載
+- 用 D3.js 實作資料視覺化
+- 將專案從 Vue/cli 遷移至 Vite，大幅提升專案啟動與熱重載速度
 
 
 | 登入 |首頁|結帳|掃碼收款|收款碼
@@ -75,11 +78,20 @@
 > 起初為臨時需求的一頁式表單，後續逐步擴充為完整平台
 > 提供市場開發業務與合作夥伴進行店家開發
 > 支援線上申請店家加入與申請藍新金流
-> 串接 TapPay、Stripe，支援台灣/新加坡地區付款
 
 專案時間: 2017 ~
 專案連結: https://affiliate.myre.life/
 使用技術: `Nuxt.js@2`、`Koa.js`、`Vuex`、`Vue-i18n`、`ElementUI`、`SCSS`、`TailwindCSS`、`Yup`、`Axios`、`Stripe`、`GoogleMapAPI`、`google-cloud/storage`
+
+全端開發（Nuxt2 + Koa.js）
+- 建立多語系架構
+- 將專案從 Nuxt1 遷移至 Nuxt2
+- 串接 TapPay、Stripe，支援台灣/新加坡地區付款
+- 實作表單流程
+  - 多步驟表單
+  - 動態欄位顯示與驗證
+  - 證件、文件檔案上傳 Google Cloud Storage 與預覽
+  - 利用 Google Maps API 抓取店家座標與英文地址自動補全
 
 
 | 登入 | 首頁 |
@@ -89,18 +101,16 @@
 ### RE·X Admin / Web
 > 與前後端同事協作開發
 > 企業內部管理後台，依權限控管提供多部門使用
-> 功能包含：店家管理、會員管理、開發商管理、客服系統、工作單、會計撥款、發票、官方商城商品管理、交易查詢等
+> 店家管理、會員管理、開發商管理、客服系統、工作單、會計撥款、發票、官方商城商品管理、交易查詢等
 
 專案時間: 2017 ~
 使用技術: `Vue.js@2.7`、`Nuxt.js@1 -> Vue/cli -> Vite`、`Vue-Router`、`Vuex`、`ElementUI`、`GraphQL / Apollo-Client`、`Express`、`SCSS`、`TailwindCSS`、`CKEditor@4`、`Axios`、`GoogleMapAPI`、`ESLint`、`Zod`
 
-
-| 登入 | 交易查詢 | 交易明細 | 商品設定 |
-| -------- | -------- | -------- | -------- |
-| ![image](https://hackmd.io/_uploads/B1cZBAgVbe.png)| ![image](https://hackmd.io/_uploads/HJ-XSClVZl.png)|![image](https://hackmd.io/_uploads/ByVvHAlNbg.png)|![image](https://hackmd.io/_uploads/BynkjRlVZe.png =50x)|
-
-
-
+全端開發（Vue2 + Express.js）
+- 將專案從 Nuxt1 遷移至 Vue/cli，後隨時間經過再遷移至 Vite，大幅提升專案啟動與熱重載速度
+- 建立多個表單組件，快速應對各種不同需求的設定
+- 獨自負責了約 80% 的功能開發(前端部分)
+ 
 
 ### RE·X RD CMS / Web
 > 與前後端同事協作開發
@@ -109,8 +119,6 @@
 
 專案時間: 2018 ~
 使用技術: `Vue.js@2.7`、`Vue/cli`、`Vue-Router`、`Vuex`、`ElementUI`、`Pug`、`Express`、`SCSS`、`CKEditor@4`、`Axios`、`GoogleMapAPI`
-
-![image](https://hackmd.io/_uploads/Syb8aaeEZg.png =200x)
 
 
 ### RE‧X LIFF (LINE Front-end Framework) / Web
@@ -132,12 +140,15 @@
 ### RE‧X Web SDK / Web
 > 與後端同事協作開發
 > 提供合作廠商（例如 HAPPYGO）與 LINE@ LIFF 掃碼後進行交易
-> 2024 年新增金流支付功能，可依裝置支援 Apple Pay、Google Pay 付款
-> - [Apple Pay on Web](https://clipwww.github.io/blog/2024/08/05/apple-pay-on-web/)
-> - [Google Pay on Web](https://clipwww.github.io/blog/2024/08/06/google-pay-on-web/)
+
 
 專案時間: 2021 ~
 使用技術: `Vue.js@3`、`VantUI`、`Vite`、`TypeScript`、`Express.js`、`VueUse`、`Axios`、`Vue-i18n`、`Pinia`、`Vue-Router`、`WindiCSS`、`ApplePayJS`、`GooglePayJS`、`ESLint`
+
+全端開發（Vue3 + Express.js）
+- 串接 Apple Pay on Web 與 Google Pay on Web，提供無縫付款體驗
+  - [Apple Pay on Web](https://clipwww.github.io/blog/2024/08/05/apple-pay-on-web/)
+  - [Google Pay on Web](https://clipwww.github.io/blog/2024/08/06/google-pay-on-web/)
 
 
 #### 發起交易流程
