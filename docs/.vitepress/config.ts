@@ -6,6 +6,11 @@ export default withMermaid({
   description: "前端工程師 | 個人履歷與專案經歷",
   lang: 'zh-TW',
   base: '/personal/', // GitHub Pages 部署路徑
+  // 預設使用 light mode，忽略系統偏好設定
+  appearance: {
+    // @ts-expect-error not fully supported yet
+    initialValue: 'light'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
