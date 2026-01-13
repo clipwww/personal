@@ -138,7 +138,8 @@ graph LR
     A[LIFF-SP<br/>前端應用] --> B[MechakuCha API<br/>後端服務]
     C[Log<br/>數據視覺化] --> B
     B --> D[(MongoDB<br/>資料庫)]
-    B --> E[第三方服務<br/>巴哈/K島/電影資料]
+    B --> F[(Google 試算表)]
+    B --> E[第三方服務<br/>巴哈/K島]
 ```
 
 - **LIFF-SP** 作為 LINE 內的前端應用入口
