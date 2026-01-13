@@ -12,11 +12,16 @@ export default withMermaid({
     initialValue: 'light'
   },
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首頁', link: '/' },
       { text: '履歷', link: '/resume' },
-      { text: '專案經歷', link: '/projects/' }
+      { text: '專案經歷', link: '/projects/' },
+      { text: '個人專案', link: '/side-projects' },
+      { text: '部落格', link: 'https://clipwww.github.io/blog/' }
     ],
 
     sidebar: {
@@ -48,6 +53,7 @@ export default withMermaid({
       next: '下一頁'
     }
   },
+  lastUpdated: true,
   // Mermaid 設定
   mermaid: {
     // https://mermaid.js.org/config/setup/modules/mermaidAPI.html

@@ -14,6 +14,36 @@
 
 ## 技能
 
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+<img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" alt="Git" style="height: 32px" />
+<img src="https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=white" alt="Vue.js" style="height: 32px" />
+<img src="https://img.shields.io/badge/Nuxt.js-00DC82?logo=nuxt&logoColor=white" alt="Nuxt.js" style="height: 32px" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5" style="height: 32px" />
+<img src="https://img.shields.io/badge/CSS-1572B6?logo=css&logoColor=white" alt="CSS" style="height: 32px" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" style="height: 32px" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" style="height: 32px" />
+<img src="https://img.shields.io/badge/Pinia-FED659?logo=pinia&logoColor=white" alt="Pinia" style="height: 32px" />
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white" alt="TailwindCSS" style="height: 32px" />
+<img src="https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white" alt="Sass" style="height: 32px" />
+<img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" style="height: 32px" />
+<img src="https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white" alt="GraphQL" style="height: 32px" />
+<img src="https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white" alt="Node.js" style="height: 32px" />
+<img src="https://img.shields.io/badge/Bun-000000?logo=bun&logoColor=white" alt="Bun" style="height: 32px" />
+<img src="https://img.shields.io/badge/Express-000000?logo=express&logoColor=white" alt="Express" style="height: 32px" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL" style="height: 32px" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" alt="MongoDB" style="height: 32px" />
+<img src="https://img.shields.io/badge/Redis-FF4438?logo=redis&logoColor=white" alt="Redis" style="height: 32px" />
+<img src="https://img.shields.io/badge/Chart.js-FF6384?logo=chartdotjs&logoColor=white" alt="Chart.js" style="height: 32px" />
+<img src="https://img.shields.io/badge/D3.js-F9A03C?logo=d3&logoColor=white" alt="D3.js" style="height: 32px" />
+<img src="https://img.shields.io/badge/Vitest-6E9F18?logo=vitest&logoColor=white" alt="Vitest" style="height: 32px" />
+<img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white" alt="Jest" style="height: 32px" />
+<img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white" alt="ESLint" style="height: 32px" />
+<img src="https://img.shields.io/badge/VueUse-3FB984?logo=vue.js&logoColor=white" alt="VueUse" style="height: 32px" />
+<img src="https://img.shields.io/badge/Zod-3E67AC?logo=zod&logoColor=white" alt="Zod" style="height: 32px" />
+<img src="https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white" alt="jQuery" style="height: 32px" />
+<img src="https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white" alt="Axios" style="height: 32px" />
+</div>
+
 ### 前端技術
 
 | 類別 | 技術 |
@@ -49,7 +79,7 @@
 
 ## 工作經歷
 
-### 資深前端工程師 • 阿爾伊股份有限公司
+### <img src="https://media.cake.me/image/upload/s--Rx4gy11P--/c_pad,fl_png8,h_100,w_100/v1766900027/l3xeisb2ggam8urha4o4.png" alt="阿爾伊" style="height: 28px; vertical-align: middle; margin-right: 8px; display: inline-block;" /> 阿爾伊股份有限公司 <span style="font-size: 0.75em; color: #888;">資深前端工程師</span>
 
 **2023/03 - 現在**
 
@@ -65,7 +95,7 @@
 
 ---
 
-### Web Front-End Engineer • FUNNOW Group
+### <img src="https://media.cake.me/image/upload/s--pI-FVciE--/c_pad,fl_png8,h_100,w_100/v1588573843/tyim2xqi5znoptmhgw0c.png" alt="FunNow" style="height: 28px; vertical-align: middle; margin-right: 8px; display: inline-block;" /> FUNNOW Group <span style="font-size: 0.75em; color: #888;">Web Front-End Engineer</span>
 
 **2022/03 - 2023/03**
 
@@ -80,7 +110,7 @@
 
 ---
 
-### 前端工程師 • 香港商阿爾伊股份有限公司台灣分公司
+### <img src="https://media.cake.me/image/upload/s--zF3uLQ3q--/c_pad,fl_png8,h_100,w_100/v1626675227/qfghfguibsfweuy4go67.png" alt="香港商阿爾伊" style="height: 28px; vertical-align: middle; margin-right: 8px; display: inline-block;" /> 香港商阿爾伊股份有限公司台灣分公司 <span style="font-size: 0.75em; color: #888;">前端工程師</span>
 
 **2017/08 - 2022/03**
 
@@ -95,7 +125,7 @@
 
 ---
 
-### 前端工程師 • WhatsMedia 蝦米智慧媒體股份有限公司
+### <img src="https://media.cake.me/image/upload/s--OyRiUbVI--/c_pad,fl_png8,h_100,w_100/v1626675140/eqcor1ewoldepkelggsf.png" alt="蝦米智慧" style="height: 28px; vertical-align: middle; margin-right: 8px; display: inline-block;" /> WhatsMedia 蝦米智慧媒體股份有限公司 <span style="font-size: 0.75em; color: #888;">前端工程師</span>
 
 **2016/03 - 2017/08**
 
