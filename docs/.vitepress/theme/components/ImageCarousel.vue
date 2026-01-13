@@ -113,13 +113,13 @@ const onLightboxIndexChange = (_oldIndex: number, newIndex: number) => {
       :visible="lightboxVisible"
       :imgs="lightboxImages"
       :index="lightboxIndex"
-      @hide="closeLightbox"
-      @on-index-change="onLightboxIndexChange"
       :loop="true"
       :moveDisabled="false"
       :zoomScale="0.2"
       :maxZoom="5"
       :minZoom="0.5"
+      @hide="closeLightbox"
+      @on-index-change="onLightboxIndexChange"
     />
   </div>
 </template>
