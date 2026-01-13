@@ -5,6 +5,7 @@ export default withMermaid({
   title: "簡爾廷 David Jian",
   description: "前端工程師 | 個人履歷與專案經歷",
   lang: 'zh-TW',
+  base: '/personal/', // GitHub Pages 部署路徑
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
