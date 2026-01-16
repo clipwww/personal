@@ -79,7 +79,7 @@
 
 ## 工作經歷
 
-### <img src="https://media.cake.me/image/upload/s--Rx4gy11P--/c_pad,fl_png8,h_100,w_100/v1766900027/l3xeisb2ggam8urha4o4.png" alt="阿爾伊" style="height: 28px; vertical-align: middle; margin-right: 8px; display: inline-block;" /> 阿爾伊股份有限公司 <span style="font-size: 0.75em; color: #888;">資深前端工程師</span>
+### <img src="https://media.cake.me/image/upload/s--Rx4gy11P--/c_pad,fl_png8,h_100,w_100/v1766900027/l3xeisb2ggam8urha4o4.png" alt="阿爾伊" class="company-logo" /> 阿爾伊股份有限公司 <span style="font-size: 0.75em; color: #888;">資深前端工程師</span>
 
 **2023/03 - 現在**
 
@@ -95,7 +95,7 @@
 
 ---
 
-### <img src="https://media.cake.me/image/upload/s--pI-FVciE--/c_pad,fl_png8,h_100,w_100/v1588573843/tyim2xqi5znoptmhgw0c.png" alt="FunNow" style="height: 28px; vertical-align: middle; margin-right: 8px; display: inline-block;" /> FUNNOW Group <span style="font-size: 0.75em; color: #888;">Web Front-End Engineer</span>
+### <img src="https://media.cake.me/image/upload/s--pI-FVciE--/c_pad,fl_png8,h_100,w_100/v1588573843/tyim2xqi5znoptmhgw0c.png" alt="FunNow" class="company-logo" /> FUNNOW Group <span style="font-size: 0.75em; color: #888;">Web Front-End Engineer</span>
 
 **2022/03 - 2023/03**
 
@@ -110,7 +110,7 @@
 
 ---
 
-### <img src="https://media.cake.me/image/upload/s--zF3uLQ3q--/c_pad,fl_png8,h_100,w_100/v1626675227/qfghfguibsfweuy4go67.png" alt="香港商阿爾伊" style="height: 28px; vertical-align: middle; margin-right: 8px; display: inline-block;" /> 香港商阿爾伊股份有限公司台灣分公司 <span style="font-size: 0.75em; color: #888;">前端工程師</span>
+### <img src="https://media.cake.me/image/upload/s--zF3uLQ3q--/c_pad,fl_png8,h_100,w_100/v1626675227/qfghfguibsfweuy4go67.png" alt="香港商阿爾伊" class="company-logo" /> 香港商阿爾伊股份有限公司台灣分公司 <span style="font-size: 0.75em; color: #888;">前端工程師</span>
 
 **2017/08 - 2022/03**
 
@@ -125,14 +125,14 @@
 
 ---
 
-### <img src="https://media.cake.me/image/upload/s--OyRiUbVI--/c_pad,fl_png8,h_100,w_100/v1626675140/eqcor1ewoldepkelggsf.png" alt="蝦米智慧" style="height: 28px; vertical-align: middle; margin-right: 8px; display: inline-block;" /> WhatsMedia 蝦米智慧媒體股份有限公司 <span style="font-size: 0.75em; color: #888;">前端工程師</span>
+### <img src="https://media.cake.me/image/upload/s--OyRiUbVI--/c_pad,fl_png8,h_100,w_100/v1626675140/eqcor1ewoldepkelggsf.png" alt="蝦米智慧" class="company-logo" /> WhatsMedia 蝦米智慧媒體股份有限公司 <span style="font-size: 0.75em; color: #888;">前端工程師</span>
 
 **2016/03 - 2017/08**
 
 與設計、後端同事協作開發與維護各種類型的專案：形象網站、會員平台、活動網頁、APP 內嵌網頁、內部系統網站
 
 ::: tip 技術棧
-`JavaScript` `jQuery` `AJAX` `CSS` `Git` `ASP.NET MVC`
+`JavaScript` `jQuery` `AJAX` `CSS` `Git` `.NET MVC` `C#` `LINQ`
 :::
 
 
@@ -159,7 +159,7 @@
 | 2016/10/11 | [PHP也有Day #29 X Vuediner #5 使用 Cucumber.js 讓測試程式更好懂](https://vuejs.kktix.cc/events/vuedinner5) |
 | 2016/11/08 | [Vuediner #6 前端工程師也會 Makefile](https://vuejs.kktix.cc/events/vuedinner6) |
 | 2017/06/01 | [Vue.js 台灣 Meetup - 2017 #01](https://vuejs.kktix.cc/events/meetup-201701) |
-| 2017/11/04 | [JSDC (JavaScript Developer Conference)](https://jsdc-tw.kktix.cc/events/jsdc2017) |
+| 2017/11/04 | [JSDC (JavaScript Developer Conference) 2017](https://jsdc-tw.kktix.cc/events/jsdc2017) |
 | 2018/09/15 | [企業前端框架趨勢論壇：分析 Angular, Vue, React 的現在與未來](https://www.accupass.com/event/1808150915324046311580) |
 | 2018/11/17 | [GDG DevFest Taipei 2018](https://gdg-taipei.kktix.cc/events/devfest-taipei-18) |
 | 2019/08/06 | [vue taiwan meetup #003 @LINE TW](https://vuejs.kktix.cc/events/v-tw-meetup-003) |
@@ -172,4 +172,4 @@
 | 2021/08/12 | [那些年，我們導入 TypeScript 的經驗談](https://www.accupass.com/event/2108061422131400567610) |
 | 2022/03/22 | [v-tw meetup #008 @LINE TW](https://vuejs.kktix.cc/events/v-tw-meetup-008) |
 | 2024/06/13 | [Google Cloud Summit Taipei](https://cloudonair.withgoogle.com/events/summit-taipei-2024) |
-| 2025/11/29 | [JSDC](https://www.accupass.com/event/2502120331361203456643) |
+| 2025/11/29 | [JSDC 2025](https://www.accupass.com/event/2502120331361203456643) |

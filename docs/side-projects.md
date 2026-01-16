@@ -116,7 +116,7 @@
 | 建構工具 | Vite |
 | 即時資料 | Firebase |
 
-## 截圖
+### 截圖
 
 <ImageCarousel :images="[
   { src: 'https://images.cakeresume.com/post-images/cd72a6b9-f9eb-4504-8774-47f33abd1138.png', alt: 'LIFF-SP - 大頭菜預測' },
@@ -130,6 +130,33 @@
 🔗 [https://clipwww.github.io/liff-sp/](https://clipwww.github.io/liff-sp/)
 
 ---
+
+## 🧰 JSON Formatter - 自用小工具
+
+<a href="https://github.com/clipwww/json-formatter" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-clipwww%2Fjson--formatter-blue?logo=github" alt="GitHub Repo" />
+</a>
+
+只是一個自用的工具。
+
+用於快速格式化、壓縮與美化 JSON，支援常見錯誤提示與一鍵複製，方便日常除錯與資料檢視。
+
+### 技術棧
+
+| 類別 | 技術 |
+|------|------|
+| 前端框架 | Vue 3 + TypeScript |
+| 樣式 | TailwindCSS |
+| 建構工具 | Vite |
+| 部署平台 | GitHub Pages |
+
+### 備註
+
+- 全部程式碼由 GPT-5.2-Codex 生成
+
+### 線上展示
+
+🔗 [https://clipwww.github.io/json-formatter/](https://clipwww.github.io/json-formatter/)
 
 ## 專案關聯
 
