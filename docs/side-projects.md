@@ -55,7 +55,7 @@
 
 ---
 
-## 🚀 MechakuCha API - 後端 API 服務
+## 🚀 Mechakucha API - 後端 API 服務
 
 <a href="https://github.com/clipwww/mechakucha-api" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-clipwww%2Fmechakucha--api-blue?logo=github" alt="GitHub Repo" />
@@ -162,7 +162,7 @@
 
 ```mermaid
 graph LR
-    A[LIFF-SP<br/>前端應用] --> B[MechakuCha API<br/>後端服務]
+    A[LIFF-SP<br/>前端應用] --> B[Mechakucha API<br/>後端服務]
     C[Log<br/>數據視覺化] --> B
     B --> D[(MongoDB<br/>資料庫)]
     B --> F[(Google 試算表)]
@@ -170,5 +170,5 @@ graph LR
 ```
 
 - **LIFF-SP** 作為 LINE 內的前端應用入口
-- **MechakuCha API** 提供後端資料服務
+- **Mechakucha API** 提供後端資料服務
 - **Log** 用於個人數據的視覺化呈現

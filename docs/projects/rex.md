@@ -479,7 +479,7 @@ RE‧X Web SDK ->> Partner: 結束後轉導至指定網址
 
 > 與設計師合作開發  
 > 活動已結束，僅保留核心邏輯  
-> 為了用 CSS Border 做三角形並支援動態改變輪盤數量，重新複習三角函數應用
+> 為了[用 CSS Border 做三角形](https://clipwww.github.io/blog/2021/10/15/css-triangle/)並支援動態改變輪盤數量，重新複習三角函數應用
 
 **專案時間:** 2019  
 **DEMO:** [https://clipwww.github.io/lucky-wheel-game/](https://clipwww.github.io/lucky-wheel-game/)
