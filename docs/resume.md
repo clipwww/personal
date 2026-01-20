@@ -79,9 +79,9 @@
 
 ## 工作經歷
 
-### <img src="https://media.cake.me/image/upload/s--Rx4gy11P--/c_pad,fl_png8,h_100,w_100/v1766900027/l3xeisb2ggam8urha4o4.png" alt="阿爾伊" class="company-logo" /> 阿爾伊股份有限公司 <span style="font-size: 0.75em; color: #888;">資深前端工程師</span>
+### <img src="https://media.cake.me/image/upload/s--Rx4gy11P--/c_pad,fl_png8,h_100,w_100/v1766900027/l3xeisb2ggam8urha4o4.png" alt="阿爾伊" class="company-logo" /> 阿爾伊股份有限公司 <span style="font-size: 1rem; color: #888;">資深前端工程師</span>
 
-**2023/03 - 現在**
+**2023/03 - 2026/01** <span style="color: #888; font-size: 0.75rem">(2 年 11 個月)</span>
 
 - 參與產品構思與規劃
 - 與後端同事協作開發與維護專案：官方網站、店家平台 (Hybrid App)、內部系統、行銷活動網頁等
@@ -95,9 +95,9 @@
 
 ---
 
-### <img src="https://media.cake.me/image/upload/s--pI-FVciE--/c_pad,fl_png8,h_100,w_100/v1588573843/tyim2xqi5znoptmhgw0c.png" alt="FunNow" class="company-logo" /> FUNNOW Group <span style="font-size: 0.75em; color: #888;">Web Front-End Engineer</span>
+### <img src="https://media.cake.me/image/upload/s--pI-FVciE--/c_pad,fl_png8,h_100,w_100/v1588573843/tyim2xqi5znoptmhgw0c.png" alt="FunNow" class="company-logo" /> FUNNOW Group <span style="font-size: 1rem; color: #888;">Web Front-End Engineer</span>
 
-**2022/03 - 2023/03**
+**2022/03 - 2023/02** <span style="color: #888; font-size: 0.75rem">(1 年)</span>
 
 - 與設計、前後端同事協作開發與維護店家端平台
 - 將專案從過舊的 vue/cli 版本遷移至 vite 提升開發體驗，啟動專案的速度從 30~60 秒大幅縮短至 1~2 秒內
@@ -110,9 +110,9 @@
 
 ---
 
-### <img src="https://media.cake.me/image/upload/s--zF3uLQ3q--/c_pad,fl_png8,h_100,w_100/v1626675227/qfghfguibsfweuy4go67.png" alt="香港商阿爾伊" class="company-logo" /> 香港商阿爾伊股份有限公司台灣分公司 <span style="font-size: 0.75em; color: #888;">前端工程師</span>
+### <img src="https://media.cake.me/image/upload/s--zF3uLQ3q--/c_pad,fl_png8,h_100,w_100/v1626675227/qfghfguibsfweuy4go67.png" alt="香港商阿爾伊" class="company-logo" /> 香港商阿爾伊股份有限公司台灣分公司 <span style="font-size: 1rem; color: #888;">前端工程師</span>
 
-**2017/08 - 2022/03**
+**2017/08 - 2022/02** <span style="color: #888; font-size: 0.75rem">(4 年 7 個月)</span>
 
 - 參與產品構思與規劃
 - 與設計、前後端同事協作開發與維護專案：官方網站、店家平台 (Hybrid App)、內部系統、行銷活動網頁等
@@ -125,9 +125,9 @@
 
 ---
 
-### <img src="https://media.cake.me/image/upload/s--OyRiUbVI--/c_pad,fl_png8,h_100,w_100/v1626675140/eqcor1ewoldepkelggsf.png" alt="蝦米智慧" class="company-logo" /> WhatsMedia 蝦米智慧媒體股份有限公司 <span style="font-size: 0.75em; color: #888;">前端工程師</span>
+### <img src="https://media.cake.me/image/upload/s--OyRiUbVI--/c_pad,fl_png8,h_100,w_100/v1626675140/eqcor1ewoldepkelggsf.png" alt="蝦米智慧" class="company-logo" /> WhatsMedia 蝦米智慧媒體股份有限公司 <span style="font-size: 1rem; color: #888;">前端工程師</span>
 
-**2016/03 - 2017/08**
+**2016/03 - 2017/07** <span style="color: #888; font-size: 0.75rem">(1 年 5 個月)</span>
 
 與設計、後端同事協作開發與維護各種類型的專案：形象網站、會員平台、活動網頁、APP 內嵌網頁、內部系統網站
 
