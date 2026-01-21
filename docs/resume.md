@@ -88,6 +88,7 @@
 - 協助開發後端服務
 - 串接藍新金流：實作開通金流表單與補件流程、Apple/Google Pay on Web、嵌入式信用卡支付
 - 串接全家會員平台、點數交換平台 API，記錄請求/回應電文
+- 撰寫技術文件
 
 ::: tip 技術棧
 `Vue.js` `Nuxt.js` `Pinia` `TypeScript` `TailwindCSS` `Bun` `MySQL` `DrizzleORM` `Redis`

@@ -6,6 +6,21 @@ export default withMermaid({
   description: "前端工程師 | 個人履歷與專案經歷",
   lang: 'zh-TW',
   base: '/personal/', // GitHub Pages 部署路徑
+  head: [
+    // Google Analytics 4
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-716HTRZPBP' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-716HTRZPBP');`
+    ]
+  ],
   // 預設使用 light mode，忽略系統偏好設定
   appearance: {
     // @ts-expect-error not fully supported yet
