@@ -9,6 +9,7 @@
 |---|---|
 |  新北市, 台灣 | clipwww@gmail.com |
 
+- [自我介紹簡報](https://clipwww.github.io/introduce)
 - [CakeResume](https://www.cake.me/resumes/s--c3g8Ga5AcGG8h4NHk4dZxA--/er-ting-jian)
 - [LinkedIn](https://www.linkedin.com/in/davidjian/)
 
