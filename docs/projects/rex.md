@@ -276,6 +276,52 @@ RE‧X Web SDK ->> Partner: 結束後轉導至指定網址
 
 ---
 
+## HappyGO Portal Web
+
+> 使用於 HappyGO App 內「綁卡」與「領紅包」的 WebView
+
+**專案時間:** 2023 ~
+
+### 技術棧
+
+`Vue.js@3` `Vite` `TypeScript` `Express.js` `VueUse` `Axios` `Vue-Router` `TailwindCSS` `ESLint`
+
+### 綁卡 (綁定會員關係)
+
+```mermaid
+sequenceDiagram
+HG App->>HG Portal Web: 開啟 WebView<br/>攜帶 memberInfo
+HG Portal Web->>Open API: 用 memberInfo<br/>[GET] /v1/happygo/check-member-profile
+Open API-->>HG Portal Web: res: 確認不存在綁定關係
+
+HG Portal Web ->> Open API: 簡訊 OTP 驗證<br/>[POST] /v1/member-verification/sign-in<br/>[PUT]/v1/member-verification/sign-in/sms-otp/:sms_otp_id
+Open API-->> HG Portal Web: res: 成功取得 member token
+HG Portal Web->Open API: 使用 member token<br/>[POST] /v1/happygo/binding-member
+Open API-->>HG Portal Web: res: 成功
+HG Portal Web->HG App: 透過 HG Bridge<br/>memberBinding (sync 資料)
+HG App-->>HG Portal Web: bridge res: 成功 
+HG Portal Web->>HG App: 透過 HG Bridge<br/>關閉 WebView
+```
+
+### 領紅包
+```mermaid
+sequenceDiagram
+HG App->>HG Portal Web: 開啟 WebView<br/>攜帶 memberInfo
+HG Portal Web->>Open API: [POST] /v3/member-receive-orders
+Note left of Open API: 建立 short_id
+Open API-->>HG Portal Web: res: 回傳 Web SDK 連結<br/>/reveice?encrypt_short_id=
+HG Portal Web->>Web SDK: 攜帶必要參數轉導頁面
+Note right of Web SDK: 解密 short_id<br/>取得交易資訊
+Web SDK ->> Open API: 建立訂單
+Note left of Open API: 過程略
+Open API -->> Web SDK: res: 成功
+Web SDK ->> HG Portal Web: 領紅包完成轉導回 redirect_url
+HG Portal Web->>HG App: 透過 HG Bridge<br/>關閉 WebView
+```
+
+
+---
+
 ## 後端服務
 
 ### Check-In Service
