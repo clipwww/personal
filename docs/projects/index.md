@@ -4,6 +4,27 @@
 
 ## 專案分類
 
+<div class="project-actions">
+	<a class="project-card" href="./rex">
+		<img class="project-card__image" src="https://media.cake.me/image/upload/s--Rx4gy11P--/c_pad,fl_png8,h_100,w_100/v1766900027/l3xeisb2ggam8urha4o4.png" alt="RE·X" />
+		<span class="project-card__label">RE·X</span>
+	</a>
+	<a class="project-card" href="./funnow">
+		<img class="project-card__image" src="https://media.cake.me/image/upload/s--pI-FVciE--/c_pad,fl_png8,h_100,w_100/v1588573843/tyim2xqi5znoptmhgw0c.png" alt="FunNow" />
+		<span class="project-card__label">FunNow</span>
+	</a>
+	<a class="project-card" href="./whatsmedia">
+		<img class="project-card__image" src="https://media.cake.me/image/upload/s--OyRiUbVI--/c_pad,fl_png8,h_100,w_100/v1626675140/eqcor1ewoldepkelggsf.png" alt="WhatsMedia" />
+		<span class="project-card__label">WhatsMedia</span>
+	</a>
+	<a class="project-card" href="./soho">
+		<span class="project-card__emoji" aria-hidden="true">🧰</span>
+		<span class="project-card__label">SOHO 接案</span>
+	</a>
+</div>
+
+> 提示：點擊按鈕或分類標題查看詳細內容。
+
 ### [RE 紅包 / RE·X 點數魔術師](./rex)
 
 RE·X 是一個點數回饋平台，我參與了多個核心專案的開發：
@@ -34,8 +55,9 @@ FunNow 是即時預訂平台，我負責維護與開發店家端後台管理系�
 | 領域 | 技術實踐 |
 |------|----------|
 | 效能優化 | LRU Cache、Lazy Hydration、Bot 偵測差異化處理 |
-| 金流整合 | TapPay、Stripe、藍新金流、Apple Pay、Google Pay |
-| 國際化 | 多語系架構、動態 Sitemap、社群 Deep Link |
+| 金流整合 | TapPay、Stripe、藍新金流、Apple / Google Pay on Web |
+| 國際化 | i18n 多語系架構 |
+| SEO | 動態 Sitemap、社群 Deep Link、結構化資料、Open Graph、Meta 標籤優化 |
 | 遊戲開發 | PixiJS 2D 遊戲、Canvas 刮刮樂 |
 | 資料視覺化 | D3.js 圓餅圖、柱狀圖、熱力圖、折線圖 |
 | 組件化 | Vue 2/3 通用組件、私有 npm 套件 |

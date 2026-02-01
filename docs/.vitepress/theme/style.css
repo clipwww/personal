@@ -86,6 +86,62 @@
   --vp-button-brand-active-bg: var(--vp-c-brand-1);
 }
 
+.VPButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.VPButton:focus-visible {
+  outline: 2px solid var(--vp-c-brand-2);
+  outline-offset: 2px;
+}
+
+.VPButton.brand {
+  color: var(--vp-button-brand-text);
+  background: var(--vp-button-brand-bg);
+  border-color: var(--vp-button-brand-border);
+}
+
+.VPButton.brand:hover {
+  color: var(--vp-button-brand-hover-text);
+  background: var(--vp-button-brand-hover-bg);
+  border-color: var(--vp-button-brand-hover-border);
+}
+
+.VPButton.brand:active {
+  color: var(--vp-button-brand-active-text);
+  background: var(--vp-button-brand-active-bg);
+  border-color: var(--vp-button-brand-active-border);
+}
+
+.VPButton.alt {
+  color: var(--vp-button-alt-text, var(--vp-c-text-1));
+  background: var(--vp-button-alt-bg, var(--vp-c-default-soft));
+  border-color: var(--vp-button-alt-border, transparent);
+}
+
+.VPButton.alt:hover {
+  color: var(--vp-button-alt-hover-text, var(--vp-c-text-1));
+  background: var(--vp-button-alt-hover-bg, var(--vp-c-default-2));
+  border-color: var(--vp-button-alt-hover-border, transparent);
+}
+
+.VPButton.alt:active {
+  color: var(--vp-button-alt-active-text, var(--vp-c-text-1));
+  background: var(--vp-button-alt-active-bg, var(--vp-c-default-3));
+  border-color: var(--vp-button-alt-active-border, transparent);
+}
+
 /**
  * Component: Home
  * -------------------------------------------------------------------------- */
@@ -147,4 +203,59 @@
   border-radius: 4px;
   padding: 1px;
   border: 1px solid #ddd;
+}
+
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0 16px;
+}
+
+a.project-card {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1) !important;
+  padding: 8px;
+}
+
+.project-card:hover {
+  border-color: var(--vp-c-brand-2);
+}
+
+.project-card:focus-visible {
+  outline: 2px solid var(--vp-c-brand-2);
+  outline-offset: 2px;
+}
+
+.project-card__image {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+.project-card__emoji {
+  font-size: 32px;
+  padding: 2px;
+  line-height: 1;
+}
+
+.project-card__label {
+  font-size: 12px;
+  line-height: 1.2;
+  text-wrap: balance;
 }
