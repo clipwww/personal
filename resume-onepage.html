@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>David,Jian Resume</title>
+  <style>
+    :root {
+      --vp-c-divider: #d9d9d9;
+      --vp-c-text-1: #2b2b2b;
+      --vp-c-brand-2: #3a3a3a;
+      --text: #2b2b2b;
+      --muted: #6b6b6b;
+      --line: #d9d9d9;
+      --accent: #3a3a3a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 12px;
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+      color: var(--text);
+      background: #efefef;
+    }
+
+    .page {
+      width: 210mm;
+      height: 295mm;
+      margin: 0 auto;
+      padding: 8mm 12mm;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      background: white;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 8mm;
+    }
+
+    header h1 {
+      margin: 0 0 6px;
+      font-size: 24px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 16px;
+      color: var(--muted);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 0;
+      position: relative;
+    }
+
+    .layout::before {
+      content: "";
+      position: absolute;
+      left: 38%;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: var(--line);
+    }
+
+    section {
+      margin-bottom: 10mm;
+    }
+
+    h2 {
+      margin: 0 0 6px;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    h3 {
+      margin: 0 0 4px;
+      font-size: 13px;
+    }
+
+    .small {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    p.small {
+      margin: 4px 0;
+    }
+
+    .list {
+      margin: 6px 0 0;
+      padding-left: 16px;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    .item {
+      margin-bottom: 8mm;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .contact p {
+      margin: 0 0 4px;
+      font-size: 12px;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--line);
+      margin: 8mm 0;
+    }
+
+    main {
+      margin-left: 16mm;
+    }
+
+    .resume-toolbar {
+      display: flex;
+      justify-content: flex-end;
+      width: 210mm;
+      margin: 12px auto;
+    }
+
+    .resume-btn {
+      appearance: none;
+      border: 1px solid var(--vp-c-divider);
+      background: white;
+      color: var(--vp-c-text-1);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .resume-btn:hover {
+      border-color: var(--vp-c-brand-2);
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="resume-toolbar">
+    <button id="js-btn" class="resume-btn" type="button" @click="downloadPdf">下載 PDF</button>
+  </div>
+
+  <div id="js-resume" class="page">
+    <header>
+      <h1>簡爾廷
+        <span style="font-size: 16px; letter-spacing: normal;">David, Jian</span>
+      </h1>
+      <p>前端工程師 Frontend Developer</p>
+    </header>
+
+    <div class="layout">
+      <aside>
+        <section class="contact">
+          <h2>聯絡方式</h2>
+          <p>新北市，台灣</p>
+          <p>Email | <a class="tag" href="mailto:clipwww@gmail.com" target="_blank">clipwww@gmail.com</a></p>
+          <p>
+            <span>Website</span>
+            <span>|</span>
+            <a class="tag" href="https://clipwww.github.io/personal" target="_blank">clipwww.github.io/personal</a>
+          </p>
+          <p>
+            <span>GitHub</span>
+            <span>|</span>
+            <a class="tag" href="https://github.com/clipwww" target="_blank">clipwww</a>
+          </p>
+          <p>
+            <span>CakeResume</span>
+            <span>|</span>
+            <a class="tag" href="https://www.cake.me/me/er-ting-jian" target="_blank">Jian Er Ting</a>
+          </p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section>
+          <h2>摘要</h2>
+          <p class="small">
+            擁有 9 年以上網站與 Web 應用程式開發經驗的前端工程師，專精於 Vue.js 及其生態系，並具備基礎後端開發能力。
+          </p>
+          <p class="small">熟悉從零到一建置後台管理系統、會員平台等面向終端使用者的服務型網站，開發過程高度重視使用者體驗與整體品質。</p>
+          <p class="small">
+            積極主動負責，樂於為共同目標與團隊協作，能在團隊協作中發揮正面影響力，同時具備獨立解決問題、有效完成分配任務與持續學習精進的能力。
+          </p>
+        </section>
+
+        <section>
+          <h2>核心技能</h2>
+          <p class="small">Vue.js / Nuxt.js / Pinia / Vite</p>
+          <p class="small">VueUse / Vuei18n</p>
+          <p class="small">Git / TypeScript</p>
+          <p class="small">TailwindCSS / SCSS</p>
+          <p class="small">ElementUI / Vuetify / VantUI / NuxtUI</p>
+          <p class="small">Node.js / Bun / Express.js / Koa.js</p>
+          <p class="small">MySQL / MongoDB / Redis / DrizzleORM</p>
+          <p class="small">Axios / Fetch / GraphQL / Apollo Client</p>
+          <p class="small">ESLint / Zod / Yup</p>
+        </section>
+
+        <section>
+          <h2>語言</h2>
+          <p class="small">中文：母語</p>
+          <p class="small">英文：初階</p>
+          <p class="small">日文：初階 / JLPT N2</p>
+        </section>
+      </aside>
+
+      <main>
+        <section>
+          <h2>工作經歷</h2>
+
+          <div class="item">
+            <h3>阿爾伊股份有限公司｜資深前端工程師</h3>
+            <div class="small">2023/03 – 2026/01 · 2 年 11 個月</div>
+            <ul class="list">
+              <li>參與產品構思與規劃、撰寫技術文件</li>
+              <li>開發、維護官方網站、店家平台（Hybrid App）、內部系統與行銷活動網頁</li>
+              <li>串接藍新金流，實作開通表單與補件流程、Apple / Google Pay on Web</li>
+              <li>整合全家會員與點數交換平台 API，處理請求 / 回應電文</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h3>FUNNOW Group｜Frontend Engineer</h3>
+            <div class="small">2022/03 – 2023/02 · 1 年</div>
+            <ul class="list">
+              <li>維護店家端平台，與設計、前後端協作推進需求</li>
+              <li>遷移 Vue/cli → Vite 提升開發體驗，縮短開發啟動與熱重載時間</li>
+              <li>導入 TypeScript，提升程式碼可讀性與可維護性</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h3>香港商阿爾伊股份有限公司台灣分公司｜前端工程師</h3>
+            <div class="small">2017/08 – 2022/02 · 4 年 7 個月 </div>
+            <ul class="list">
+              <li>參與產品構思與規劃、撰寫技術文件</li>
+              <li>參與官方網站、店家平台與內部系統開發</li>
+              <li>處理跨平台與瀏覽器相容性問題，維護共用組件</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h3>WhatsMedia 蝦米智慧媒體股份有限公司｜前端工程師</h3>
+            <div class="small">2016/03 – 2017/07 · 1 年 5 個月</div>
+            <ul class="list">
+              <li>開發與維護各種類型的專案：形象網站、會員平台、活動網頁、APP 內嵌網頁、內部系統網站</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>亮點</h2>
+          <ul class="list">
+            <li>9 年以上網站與 Web 應用程式開發經驗</li>
+            <li>專精 Vue.js 與其生態系</li>
+            <li>金流串接經驗 - TapPay / Stripe / 藍新</li>
+            <li>第三方點數串接經驗 - HAPPYGO / 全家點數</li>
+            <li>重視 UX 與品質 - 確保功能穩定性與可用性</li>
+            <li>團隊協作 - 積極主動負責，樂於溝通協調</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>學歷</h2>
+          <div class="small">東海大學 資訊管理學系暨研究所（2013/09 – 2015/06）</div>
+          <div class="small">東海大學 資訊工程學系（2009/09 – 2013/06）</div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    let loadingPromise
+
+    const loadHtml2Pdf = () => {
+      if (typeof window !== 'undefined' && window.html2pdf) {
+        return Promise.resolve()
+      }
+      if (loadingPromise) {
+        return loadingPromise
+      }
+      loadingPromise = new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js'
+        script.onload = () => resolve()
+        script.onerror = () => reject(new Error('html2pdf.js 載入失敗'))
+        document.head.appendChild(script)
+      })
+      return loadingPromise
+    }
+
+    const downloadPdf = async () => {
+      if (typeof window === 'undefined') return
+      await loadHtml2Pdf()
+      const resumeEl = document.querySelector('#js-resume')
+      if (!resumeEl || !window.html2pdf) return
+      window.html2pdf()
+        .set({
+          margin: [0, 0, 0, 0],
+          filename: 'DavidJian.pdf',
+          html2canvas: { scale: 2, useCORS: true },
+          jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+          pagebreak: { mode: 'avoid-all' },
+        })
+        .from(resumeEl)
+        .save()
+    }
+
+    const btn = document.querySelector('#js-btn')
+    console.log(btn)
+    if (btn) {
+      btn.addEventListener('click', downloadPdf)
+    }
+  </script>
+</body>
+
+</html>
