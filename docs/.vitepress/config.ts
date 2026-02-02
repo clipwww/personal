@@ -7,6 +7,7 @@ export default withMermaid({
   lang: 'zh-TW',
   base: '/personal/', // GitHub Pages 部署路徑
   head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/personal/favicon.svg' }],
     // Google Analytics 4
     [
       'script',
