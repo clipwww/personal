@@ -9,9 +9,13 @@
 |---|---|
 |  新北市, 台灣 | clipwww@gmail.com |
 
+<div style="font-size: 0.875rem;">
+
+- [單頁式履歷](./resume-onepage.html){target="_blank"}
 - [自我介紹簡報](https://clipwww.github.io/introduce)
 - [CakeResume](https://www.cake.me/resumes/s--c3g8Ga5AcGG8h4NHk4dZxA--/er-ting-jian)
-- [LinkedIn](https://www.linkedin.com/in/davidjian/)
+
+</div>
 
 ## 技能
 
@@ -97,7 +101,7 @@
 
 ---
 
-### <img src="https://media.cake.me/image/upload/s--pI-FVciE--/c_pad,fl_png8,h_100,w_100/v1588573843/tyim2xqi5znoptmhgw0c.png" alt="FunNow" class="company-logo" /> FUNNOW Group <span style="font-size: 1rem; color: #888;">Web Front-End Engineer</span>
+### <img src="https://media.cake.me/image/upload/s--pI-FVciE--/c_pad,fl_png8,h_100,w_100/v1588573843/tyim2xqi5znoptmhgw0c.png" alt="FunNow" class="company-logo" /> FUNNOW Group <span style="font-size: 1rem; color: #888;">Frontend Engineer</span>
 
 **2022/03 - 2023/02** <span style="color: #888; font-size: 0.75rem">(1 年)</span>
 

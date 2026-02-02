@@ -1,6 +1,6 @@
 # FunNow
 
-FunNow 是即時預訂平台，我在 2022/03 - 2023/03 期間擔任 Web Front-End Engineer，負責維護與開發店家端後台管理系統。
+FunNow 是即時預訂平台，我在 2022/03 - 2023/03 期間擔任 Frontend Engineer，負責維護與開發店家端後台管理系統。
 
 ---
 
