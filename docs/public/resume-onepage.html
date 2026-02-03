@@ -26,11 +26,13 @@
       font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
       color: var(--text);
       background: #efefef;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
     }
 
     .page {
       width: 210mm;
-      height: 295mm;
+      min-height: 295mm;
       margin: 0 auto;
       padding: 8mm 12mm;
       box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -328,11 +330,15 @@
       await loadHtml2Pdf()
       const resumeEl = document.querySelector('#js-resume')
       if (!resumeEl || !window.html2pdf) return
+      const scale = Math.min(2, window.devicePixelRatio || 1)
       window.html2pdf()
         .set({
           margin: [0, 0, 0, 0],
-          filename: 'DavidJian.pdf',
-          html2canvas: { scale: 2, useCORS: true },
+          filename: '簡爾廷_DavidJian.pdf',
+          html2canvas: {
+            scale,
+            useCORS: true,
+          },
           jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
           pagebreak: { mode: 'avoid-all' },
         })
