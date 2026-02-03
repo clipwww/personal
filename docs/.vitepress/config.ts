@@ -70,6 +70,11 @@ export default withMermaid({
     }
   },
   lastUpdated: true,
+  vite: {
+    server: {
+      allowedHosts: []
+    }
+  },
   // Mermaid 設定
   mermaid: {
     // https://mermaid.js.org/config/setup/modules/mermaidAPI.html

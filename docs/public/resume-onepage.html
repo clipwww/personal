@@ -119,6 +119,7 @@
       display: inline-block;
       font-size: 13px;
       color: var(--muted);
+      text-underline-offset: 2px;
     }
 
     .contact p {
@@ -330,20 +331,40 @@
       await loadHtml2Pdf()
       const resumeEl = document.querySelector('#js-resume')
       if (!resumeEl || !window.html2pdf) return
-      const scale = Math.min(2, window.devicePixelRatio || 1)
-      window.html2pdf()
-        .set({
-          margin: [0, 0, 0, 0],
-          filename: '簡爾廷_DavidJian.pdf',
-          html2canvas: {
-            scale,
-            useCORS: true,
-          },
-          jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-          pagebreak: { mode: 'avoid-all' },
-        })
-        .from(resumeEl)
-        .save()
+
+      const isMobile = /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)
+      
+      const prevWidth = resumeEl.style.width
+      const prevHeight = resumeEl.style.height
+      resumeEl.style.width = '794px'
+      resumeEl.style.height = '1123px'
+      const scale = Math.min(1.5, window.devicePixelRatio || 1)
+      const html2canvasForMobile = {
+        windowWidth: 794,
+        windowHeight: 1123,
+        scrollX: 0,
+        scrollY: 0
+      }
+
+      try {
+        await window.html2pdf()
+          .set({
+            margin: [0, 0, 0, 0],
+            filename: '簡爾廷_DavidJian.pdf',
+            html2canvas: {
+              scale,
+              useCORS: true,
+              ...(isMobile ? html2canvasForMobile : {})
+            },
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+            pagebreak: { mode: 'avoid-all' },
+          })
+          .from(resumeEl)
+          .save()
+      } finally {
+        resumeEl.style.width = prevWidth
+        resumeEl.style.height = prevHeight
+      }
     }
 
     const btn = document.querySelector('#js-btn')
