@@ -12,7 +12,7 @@
 <div style="font-size: 0.875rem;">
 
 - [單頁式履歷](./resume-onepage.html){target="_blank"}
-- [自我介紹簡報](https://clipwww.github.io/introduce)
+<!-- - [自我介紹簡報](https://clipwww.github.io/introduce) -->
 - [CakeResume](https://www.cake.me/resumes/s--c3g8Ga5AcGG8h4NHk4dZxA--/er-ting-jian)
 
 </div>
