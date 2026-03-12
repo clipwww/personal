@@ -46,7 +46,9 @@
 #### 棒球入場紀錄
 
 <ImageCarousel :images="[
-  { src: 'https://hackmd.io/_uploads/H1tW-vQBbl.png', alt: '棒球入場紀錄' }
+  { src: 'https://hackmd.io/_uploads/Bkutibx9-g.png', alt: '棒球入場紀錄' },
+  { src: 'https://hackmd.io/_uploads/rystiWlqbl.png', alt: '棒球入場紀錄 - 球場次數' },
+  { src: 'https://hackmd.io/_uploads/H1RKiZeqWx.png', alt: '棒球入場紀錄 - 紀錄列表' }
 ]" />
 
 ### 線上展示
