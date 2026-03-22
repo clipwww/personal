@@ -6,7 +6,7 @@ FunNow 是即時預訂平台，我在 2022/03 - 2023/03 期間擔任 Frontend En
 
 ## FunNow Manager 商家後台管理系統
 
-> 接手後與後端同事協作維護，並開發新功能
+> 店家端後台管理系統，提供商家管理訂單、商品、優惠券、財務報表等功能
 
 **專案連結:** [https://boss.myfunnow.com/](https://boss.myfunnow.com/)
 
@@ -14,7 +14,9 @@ FunNow 是即時預訂平台，我在 2022/03 - 2023/03 期間擔任 Frontend En
 
 `Vue.js@2.7` `Vue-Router` `Vuetify` `Vite` `TypeScript` `Pinia` `Axios` `Jest` `Vue-i18n` `WindiCSS` `VueUse` `ESLint`
 
-### 主要貢獻
+### 開發內容
+
+接手擔任主要前端開發者，負責專案升級與重構、組件開發、功能開發與維護等工作
 
 - 從 Vue/cli 遷移至 Vite，大幅提升專案啟動與熱重載速度
 - 導入 TypeScript，提升開發體驗（精準自動補全、重構安全），並強化程式碼可讀性與可維護性（明確型別定義）
