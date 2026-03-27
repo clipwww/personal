@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "簡爾廷"
   text: "David, Jian"
-  tagline: 前端工程師 | 9 年以上網站與 Web 應用程式開發經驗
+  tagline: 前端工程師 | 9 年以上網站與網站應用程式開發經驗
   actions:
     - theme: brand
       text: 查看履歷
