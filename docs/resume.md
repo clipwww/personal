@@ -158,6 +158,8 @@
 
 ## 參加線上/下聚會
 
+> 都是普通與會者
+
 | 日期 | 活動名稱 |
 |------|----------|
 | 2016/08/25 | [Vuedinner #3 淺談前端建置工具與 Vue.js](https://vuejs.kktix.cc/events/vuedinner3) |
