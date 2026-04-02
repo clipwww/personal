@@ -27,7 +27,7 @@ features:
     title: 後端開發
     details: 具備基礎後端開發能力，熟悉 Express.js、Koa.js、MySQL、Redis、DrizzleORM
   - icon: 💳
-    title: 金流整合
+    title: 金流串接
     details: 串接 TapPay、Stripe、藍新金流，實作 Apple Pay / Google Pay on Web
   - icon: 🌐
     title: 國際化
