@@ -381,7 +381,7 @@ HG Portal Web->>HG App: 透過 HG Bridge<br/>關閉 WebView
 **專案時間:** 2024 ~ 2026 (已下架)
 
 #### 技術棧
-`TypeScript` `Express.js` `Redis` `MySQL` `Zod` `Pino` `Axios` `ESLint`
+`TypeScript` `Express.js` `Redis` `MySQL` `Pino` `Axios` `ESLint`
 
 #### 開發內容
 
